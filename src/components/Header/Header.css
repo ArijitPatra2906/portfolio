@@ -1,0 +1,119 @@
+header{
+   height: 100vh;
+    padding-top: 7rem;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+/* #header{
+
+    height: 100vh;
+
+} */
+
+.header_container{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    text-align:justify;
+    align-items: flex-start;
+    height: 100%;
+    position: relative;
+}
+h2{
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 3rem;
+    
+}
+h3{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 0;
+
+}
+
+h2> span{
+    color: var(--color-primary);
+}
+
+.cta{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.social{
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    gap: 0.9rem;
+    position: absolute;
+    left: 0;
+    bottom: 5rem;
+    
+
+}
+.scroll_down{
+    position: absolute;
+    right: 7.4rem;
+    bottom: 12rem;
+    transform: rotate(90deg);
+    font-weight: 400;
+    font-size: 0.9rem ;
+    position: absolute;
+}
+.arrow{
+    position: absolute;
+    right: 9.5rem;
+    bottom: 8.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.side{
+    display:flex;
+    flex-direction: row-reverse;
+}
+@media screen and (max-width:600px) {
+    header{
+        padding-top: 8rem;
+        
+    }
+    .scroll_down{
+        position: absolute;
+        right: -1.3rem;
+        bottom: 14.4rem;
+        transform: rotate(90deg);
+        font-weight: 400;
+        font-size: 0.8rem ;
+    }
+    .arrow{
+        position: absolute;
+        right: 0.5rem;
+        bottom: 11rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .side{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    .social{
+        bottom:11rem;
+    }
+        
+}  
+
+  /* .me{ */
+    /* background: var(--color-primary); */
+    /* width:22rem; */
+    /* height: 30rem; */
+    /* position: absolute; */
+    /* left: calc(50% - 9rem); */
+    /* transform: translateX(-50%); */
+    /* margin-top: 2rem; */
+    /* border-radius: 10rem 10rem 0 0; */
+/* } */

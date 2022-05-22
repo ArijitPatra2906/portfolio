@@ -1,0 +1,98 @@
+
+.edu_container{
+    align-items: center;
+}
+/* #education{
+    height: 100vh;
+} */
+
+h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-primary);
+}
+h4{
+    text-align: start;
+}
+h6{
+    text-align: end;
+    color: var(--color-light);
+    
+}
+.edu_cards{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    gap: 1rem;
+}
+
+.edu_card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1.2rem;
+    padding:2.9rem;
+    align-items: center;
+    text-align: center;
+    transition: var(--transition);
+    cursor: pointer;
+    
+}
+
+.hello{
+    font-size: 0.9rem;
+}
+
+ p{
+   font-size: 0.8rem;
+   text-align: center;
+   color: var(--color-light);
+}
+h7{
+    font-size: 0.6rem;
+   color: var(--color-light);
+
+}
+.edu_icon{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+   align-items: center;
+}
+.top_text{
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .edu_cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    
+        }
+
+        .cart1{
+            padding: 2rem;
+            }
+} 
+@media screen and (max-width:600px) {
+    .edu_cards{
+
+    grid-template-columns: 1fr ;
+
+
+    }
+    section{
+        margin-top: 2rem;
+        margin-bottom: 12rem;
+    }
+
+    /* #education{
+        height: 100vh;
+    } */
+    
+}
